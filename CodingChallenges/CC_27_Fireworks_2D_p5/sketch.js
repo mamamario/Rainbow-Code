@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   colorMode(RGB);
-  background(50, 50, 50, 50);
+  background(500, 500, 500, 500);
   
   if (random(1) < 0.03) {
     fireworks.push(new Firework());
